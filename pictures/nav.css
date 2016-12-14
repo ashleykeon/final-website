@@ -1,0 +1,63 @@
+
+nav ul{
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+
+ nav{
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+ }
+
+ nav li{
+  padding: 5px 10px;
+}
+
+
+ nav a:link{
+  color: blue;
+  font-weight: bold;
+  border-bottom: none;
+ }
+
+ nav a:visited{
+  color: blue;
+  font-weight: bold;
+  border-bottom: none;
+ }
+
+nav li.selected{
+  background-color: gray;
+}
+
+h1{
+  text-align: center
+}
+
+p{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 480px){
+  p{
+    font-size: 150%
+  }
+  nav li.selected{
+  background-color: gray;
+  margin:0%;
+  padding: 0%;
+}
+}
+@media screen and (min-width: 481px){
+nav li{
+  display: inline;
+}
+
+
+
+
+
